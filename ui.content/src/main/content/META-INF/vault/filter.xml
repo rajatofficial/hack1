@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/hack1" mode="merge"/>
+    <filter root="/content/hack1" mode="merge"/>
+    <filter root="/content/dam/hack1" mode="merge">
+        <exclude pattern="/content/dam/hack1(/.*)?"/>
+        <include pattern="/content/dam/hack1/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/hack1/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/hack1" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/hack1" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/hack1" mode="merge"/>
+    <filter root="/content/dam/hack1/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/hack1/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/hack1/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
